@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="SeaBattel_Winter.Controls.ContextField"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SeaBattel_Winter.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="25" d:DesignWidth="25">
+    <Grid x:Name="CellContext" MouseEnter="CellContext_MouseEnter" MouseLeave="CellContext_MouseLeave" MouseDown="CellContext_MouseDown">
+        <Grid.Background>
+            <ImageBrush x:Name="SeaField" ImageSource="/SeaBattel_Winter;component/Resourses/Sea.jpg"/>
+        </Grid.Background>
+
+    </Grid>
+</UserControl>
